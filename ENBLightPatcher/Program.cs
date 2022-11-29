@@ -31,7 +31,7 @@ namespace ENBLightPatcher
 
         private static readonly string[] lightNamesToAdjust = { "Candle", "Torch", "Camp" };
 
-        private static readonly float fadeMultiplier = 0.8f;
+        private static readonly float fadeMultiplier = 0.9f;
 
         public static void RunPatch(IPatcherState<ISkyrimMod, ISkyrimModGetter> state)
         {
